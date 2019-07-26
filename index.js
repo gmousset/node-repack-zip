@@ -13,8 +13,9 @@ const DEFAULT_IGNORE_PATTERNS = [
 ];
 
 const DEFAULT_INCLUDE_PATTERNS = [
-    '**/*',
-    '!node_modules/**'
+    'build/**',
+    '!node_modules/**',
+    'package.json'
 ];
 
 let resolvePathRelativeTo = (() => {
